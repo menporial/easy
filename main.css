@@ -1,0 +1,97 @@
+
+
+html,body {
+  margin: 0;
+  font-family: coolsville;
+  font-size: 25px;
+}
+
+
+h1, h2 {
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 971px;
+  margin: 0 auto;
+}
+
+
+.info {
+  width: 100%;
+  margin: 10px;
+  max-width: 971px;
+  height: 648px;
+  background-image: url('background.png');
+}
+
+.inner-info {
+  padding-top: 80px;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+
+}
+
+.tag-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag-block {
+  padding: 7px;
+  border: 4px solid black;
+  font-family: coolsville;
+  background: white;
+}
+
+
+.sample-info {
+  padding-top: 60px;
+  font-family: coolsville;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.inner-sample {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sample {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  flex-grow: 1;
+  background: white;
+  border: 4px solid black;
+}
+
+
+.nav {
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: 4px solid black;
+  font-family: Algerian;
+  font-size: 25px;
+}
+
+
+
